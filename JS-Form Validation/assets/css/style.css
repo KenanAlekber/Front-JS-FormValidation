@@ -1,0 +1,38 @@
+#form {
+  display: block;
+  margin-left: 40%;
+  margin-top: 8%;
+  padding: 20px 30px;
+  width: 20%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#form h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form label {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  color: grey;
+}
+#form input {
+  width: 100%;
+  padding: 10px 0;
+}
+#form button {
+  margin-top: 30px;
+  padding: 10px 0;
+  width: 100%;
+  background-color: rgb(73, 85, 246);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#form button:hover {
+  background-color: blue;
+}
+#form .error {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
